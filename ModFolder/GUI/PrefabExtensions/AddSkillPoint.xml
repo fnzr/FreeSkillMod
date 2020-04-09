@@ -1,0 +1,5 @@
+<ButtonWidget Id="AddSkillButton" DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HorizontalAlignment="Center" VerticalAlignment="Center" HeightSizePolicy="Fixed" PositionXOffset="5" PositionYOffset="-5" SuggestedWidth="40" SuggestedHeight="40" Command.Click="ExecuteAddSkill" IsEnabled="@CanAddSkill" Brush="AddFocusButton.SoundBrush" UpdateChildrenStates="true" >
+	<Children>                        
+		<Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="40" SuggestedHeight="40" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="CharacterDeveloper.AddFocus.Icon.Brush"/>
+	</Children>
+</ButtonWidget>

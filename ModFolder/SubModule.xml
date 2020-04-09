@@ -1,0 +1,27 @@
+ <Module>
+     <Name value="Free Skill"/>
+     <Id value="FreeSkill"/>
+     <Version value="v1.0.0"/>
+     <SingleplayerModule value="true"/>
+     <MultiplayerModule value="false"/>
+     <DependedModules>
+         <DependedModule Id="Native"/>
+         <DependedModule Id="SandBoxCore"/>
+         <DependedModule Id="Sandbox"/>
+         <DependedModule Id="CustomBattle"/>
+         <DependedModule Id="StoryMode" />
+         <DependedModule Id="UIExtenderLibModule" />
+     </DependedModules>
+     <SubModules>
+         <SubModule>
+             <Name value="FreeSkillMod"/>
+             <DLLName value="FreeSkillMod.dll"/>
+             <SubModuleClassType value="FreeSkillMod.FreeSkillMod"/>
+             <Tags>
+                 <Tag key="DedicatedServerType" value="none" />
+                 <Tag key="IsNoRenderModeElement" value="false" />
+             </Tags>
+         </SubModule>
+     </SubModules>
+     <Xmls/>
+ </Module>

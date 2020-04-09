@@ -1,0 +1,12 @@
+<ListPanel DataSource="{CurrentCharacter\SkillPointsHint}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Center" MarginRight="110" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" DoNotPassEventsToChildren="true">
+  <Children>
+    <!--Character Point Image-->
+    <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="35" SuggestedHeight="35" VerticalAlignment="Center" Sprite="CharacterDeveloper\cp_icon" PositionYOffset="-2"/>
+    <!--Unspent Focus Number-->
+    <Widget  WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center">
+      <Children>
+        <TextWidget DataSource="{..}" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" VerticalAlignment="Center" HorizontalAlignment="Center" Brush="CharacterDeveloper.RightPanel.FreeFocus.Text.Prox" Brush.FontColor="#FAEBD4FF" Brush.FontSize="40" IntText="@UnspentSkillPoints" />
+      </Children>
+    </Widget>
+  </Children>
+</ListPanel>
